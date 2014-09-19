@@ -1,0 +1,17 @@
+{
+  "name": "Basecamp Hours",
+  "version": "1.0",
+  "description": "Reminds you",
+  "manifest_version": 2,
+  "background" : {
+    "scripts" : [
+      "js/chromep.js",
+      "js/background.js"
+    ]
+  },
+  "options_page" : "html/options.html",
+  "permissions": [
+	  "storage",
+	  "notifications"
+  ]
+}
